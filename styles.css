@@ -47,8 +47,11 @@ form {
   width: 20%;
   font-size: 16px;
 }
+.button:hover {
+  background-color: rgba(127, 255, 212, 0.447);
+}
 #result {
-  font-size: 16px;
+  font-size: 13px;
   background-color: white;
   padding: 20px;
   line-height: 2;
