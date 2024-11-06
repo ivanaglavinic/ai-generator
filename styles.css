@@ -55,6 +55,16 @@ form {
 .button:hover {
   transform: scale(1.1);
 }
+@media (max-width: 800px) {
+  .instructions {
+    width: 70%;
+  }
+  .button {
+    font-size: 14px;
+    padding: 10px 18px;
+    width: 20%;
+  }
+}
 #result {
   display: none;
   font-size: 13px;
